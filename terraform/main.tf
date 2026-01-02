@@ -21,10 +21,10 @@ module "eks" {
   cluster_name    = "demo-eks"
   cluster_version = "1.29"
 
-  vpc_id     = "vpc-0bfefd8e33e454b94"
+  vpc_id     = "vpc-062705c97c37cc843"
   subnet_ids = [
-    "subnet-088fd4c0979fdd197",
-    "subnet-00762b843ddd21506"
+    "subnet-056ffe4638c24d273",
+    "subnet-0909f92c152869571"
   ]
 
   # ✅ Enable control plane logs (fixes Trivy warnings)
